@@ -1,0 +1,9 @@
+{
+  "name": "gov-contacts-demo",
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "assets": {
+    "directory": "./dist",
+    "notFoundStrategy": "singlePageApplication"
+  }
+}
