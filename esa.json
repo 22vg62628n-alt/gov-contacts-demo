@@ -1,12 +1,8 @@
 {
-  "build": {
-    "command": "npm run build",
-    "outputDir": "dist"
-  },
-  "deploy": {
-    "type": "static",
-    "static": {
-      "publicPath": "/"
-    }
+  "name": "gov-contacts-demo",
+  "buildCommand": "npm run build",
+  "assets": {
+    "directory": "./dist",
+    "notFoundStrategy": "singlePageApplication"
   }
 }
