@@ -4,8 +4,9 @@
     "outputDir": "dist"
   },
   "deploy": {
-    "assets": {
-      "dir": "dist"
+    "type": "static",
+    "static": {
+      "publicPath": "/"
     }
   }
 }
