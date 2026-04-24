@@ -1,0 +1,11 @@
+{
+  "build": {
+    "command": "npm run build",
+    "outputDir": "dist"
+  },
+  "deploy": {
+    "assets": {
+      "dir": "dist"
+    }
+  }
+}
